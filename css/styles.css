@@ -1,0 +1,67 @@
+header {
+    font-family: 'Small-Caps', sans-serif;
+    color: #84a4d8;
+    background: #25427d;
+}
+
+body {
+    padding: 20px 0;
+    font: 300 14px "Small-Caps", sans-serif;
+    background-color: #1b366d;
+}
+
+h4 {
+    font-family: 'Small-Caps', sans-serif;
+    color: #84a4d8;
+}
+
+hr {
+    border: 2px solid #84a4d8;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+}
+.footer{
+    text-align: right;
+    color: #84a4d8;
+}
+.project {
+    text-align: center;
+}
+
+.profile-name {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+}
+
+.profile-title {
+    text-align: right;
+}
+
+.col-md-6 img{
+    width:25%;
+}
+.img-circle{
+    border-radius: 0;
+}
+.name {
+    background: #1b366d;
+}
+@media screen and (max-width: 992px) {
+    .profile-name {
+        text-align: center;
+    }
+    .profile-title {
+        text-align: center;
+    }
+    .profile-picture {
+        margin: auto;
+        display: block;
+    }
+    .container {
+        text-align: center;
+    }
+}
